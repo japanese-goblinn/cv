@@ -1,0 +1,32 @@
+html {
+	font-family: Iowan Old Style;
+}
+body {
+	max-width: 728px; 
+	margin: 0 auto; /* Center text */
+	padding: 0 20px 0 20px; /* Set minimum padding on left and right */
+	line-height: 1.6em;
+	font-size: 16px;
+}
+a { 
+	color: black;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	padding-bottom: .1em;
+}
+
+/* Align bullet points with text */
+ul {
+	padding-left: .2em;
+}
+ul li {
+	list-style-position: inside;
+}
+
+/* Components */
+.uidate { 
+	margin-top: -1em;
+	color: #6C6C70;
+}
