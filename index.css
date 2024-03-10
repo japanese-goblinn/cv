@@ -1,3 +1,7 @@
+:root { 
+	--link-color: black;
+	--link-hover-color: rgb(255, 69, 59, 1);
+}
 html {
 	font-family: Iowan Old Style;
 }
@@ -9,12 +13,16 @@ body {
 	font-size: 16px;
 }
 a { 
-	color: black;
+	color: var(--link-color);
 	text-decoration: none;
 	border-bottom-width: 1px;
-	border-bottom-color: black;
+	border-bottom-color: var(--link-color);
 	border-bottom-style: solid;
 	padding-bottom: .1em;
+}
+a:hover {
+	color: var(--link-hover-color);
+	border-bottom-color: var(--link-hover-color);
 }
 
 /* Align bullet points with text */
