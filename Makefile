@@ -8,4 +8,5 @@ _serve-local-server:
 	python3 -m http.server 8000
 
 _open-localhost:
+	sleep 0.1
 	open "http://localhost:8000"
