@@ -1,3 +1,6 @@
+pdf:
+	@swift ExportToPDF.swift
+
 check-links:
 	-lychee -v --no-progress index.html
 
